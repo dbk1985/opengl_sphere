@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993DA23E219A9A3D00963107 /* ColorTrackingGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 993DA239219A9A3D00963107 /* ColorTrackingGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		993DA23F219A9A3D00963107 /* pathSleepController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993DA23B219A9A3D00963107 /* pathSleepController.xib */; };
+		993DA240219A9A3D00963107 /* pathSleepController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993DA23D219A9A3D00963107 /* pathSleepController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		993DA2DC219A9D2100963107 /* sleep-moon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2BE219A9D2100963107 /* sleep-moon5.png */; };
+		993DA2DD219A9D2100963107 /* DirectDisplayShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2BF219A9D2100963107 /* DirectDisplayShader.fsh */; };
+		993DA2DE219A9D2100963107 /* sleep-moon4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C0219A9D2100963107 /* sleep-moon4@2x.png */; };
+		993DA2DF219A9D2100963107 /* sleep-moon8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C1219A9D2100963107 /* sleep-moon8@2x.png */; };
+		993DA2E0219A9D2100963107 /* sleep-moon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C2219A9D2100963107 /* sleep-moon4.png */; };
+		993DA2E1219A9D2100963107 /* sleep-moon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C3219A9D2100963107 /* sleep-moon6.png */; };
+		993DA2E2219A9D2100963107 /* sleep-moon7.png.zip in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C4219A9D2100963107 /* sleep-moon7.png.zip */; };
+		993DA2E3219A9D2100963107 /* sleep-moon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C5219A9D2100963107 /* sleep-moon7.png */; };
+		993DA2E4219A9D2100963107 /* sleep-moon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C6219A9D2100963107 /* sleep-moon3.png */; };
+		993DA2E5219A9D2100963107 /* sleep-moon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C7219A9D2100963107 /* sleep-moon2.png */; };
+		993DA2E6219A9D2200963107 /* starShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C8219A9D2100963107 /* starShader.fsh */; };
+		993DA2E7219A9D2200963107 /* sleep-moon6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C9219A9D2100963107 /* sleep-moon6@2x.png */; };
+		993DA2E8219A9D2200963107 /* sleep-moon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2CA219A9D2100963107 /* sleep-moon1.png */; };
+		993DA2E9219A9D2200963107 /* sleep-gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2CB219A9D2100963107 /* sleep-gradient.png */; };
+		993DA2EA219A9D2200963107 /* sleep-moon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2CC219A9D2100963107 /* sleep-moon2@2x.png */; };
+		993DA2EB219A9D2200963107 /* sleep-awake-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2CD219A9D2100963107 /* sleep-awake-button@2x.png */; };
+		993DA2EC219A9D2200963107 /* moonShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2CE219A9D2100963107 /* moonShader.vsh */; };
+		993DA2ED219A9D2200963107 /* xueye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2CF219A9D2100963107 /* xueye.jpg */; };
+		993DA2EE219A9D2200963107 /* sleep-stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D0219A9D2100963107 /* sleep-stars@2x.png */; };
+		993DA2EF219A9D2200963107 /* sleep-gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D1219A9D2100963107 /* sleep-gradient@2x.png */; };
+		993DA2F0219A9D2200963107 /* sleep-moon5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D2219A9D2100963107 /* sleep-moon5@2x.png */; };
+		993DA2F1219A9D2200963107 /* starShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D3219A9D2100963107 /* starShader.vsh */; };
+		993DA2F2219A9D2200963107 /* DirectDisplayShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D4219A9D2100963107 /* DirectDisplayShader.vsh */; };
+		993DA2F3219A9D2200963107 /* sleep-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D5219A9D2100963107 /* sleep-stars.png */; };
+		993DA2F4219A9D2200963107 /* sleep-moon7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D6219A9D2100963107 /* sleep-moon7@2x.png */; };
+		993DA2F5219A9D2200963107 /* sleep-awake-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D7219A9D2100963107 /* sleep-awake-button.png */; };
+		993DA2F6219A9D2200963107 /* sleep-moon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D8219A9D2100963107 /* sleep-moon3@2x.png */; };
+		993DA2F7219A9D2200963107 /* moonShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2D9219A9D2100963107 /* moonShader.fsh */; };
+		993DA2F8219A9D2200963107 /* sleep-moon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2DA219A9D2100963107 /* sleep-moon1@2x.png */; };
+		993DA2F9219A9D2200963107 /* sleep-moon8.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2DB219A9D2100963107 /* sleep-moon8.png */; };
+		99CE36C821A7ED9D0055151A /* SGDistortionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CE36C421A7ED9D0055151A /* SGDistortionModel.m */; };
+		99CE36C921A7ED9D0055151A /* SGDistortionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CE36C621A7ED9D0055151A /* SGDistortionRenderer.m */; };
+		99CE36CC21A7EE0A0055151A /* DZGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CE36CB21A7EE0A0055151A /* DZGLView.m */; };
+		99F74FAA219A635C00F3F565 /* PanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F74FA9219A635C00F3F565 /* PanoramaViewController.m */; };
+		99F74FAC219A64F300F3F565 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 99F74FAB219A64F300F3F565 /* timg.jpeg */; };
+		E79DE33B21999DCB006CFF04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DE33A21999DCB006CFF04 /* AppDelegate.m */; };
+		E79DE33E21999DCB006CFF04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DE33D21999DCB006CFF04 /* ViewController.m */; };
+		E79DE34121999DCC006CFF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79DE33F21999DCC006CFF04 /* Main.storyboard */; };
+		E79DE34321999DCC006CFF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79DE34221999DCC006CFF04 /* Assets.xcassets */; };
+		E79DE34621999DCD006CFF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79DE34421999DCD006CFF04 /* LaunchScreen.storyboard */; };
+		E79DE34921999DCD006CFF04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DE34821999DCD006CFF04 /* main.m */; };
+		E79DE35721999E13006CFF04 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DE34F21999E12006CFF04 /* EAGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E79DE35821999E13006CFF04 /* esShader.c in Sources */ = {isa = PBXBuildFile; fileRef = E79DE35221999E13006CFF04 /* esShader.c */; };
+		E79DE35921999E13006CFF04 /* esUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = E79DE35321999E13006CFF04 /* esUtil.c */; };
+		E79DE35A21999E13006CFF04 /* esTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = E79DE35421999E13006CFF04 /* esTransform.c */; };
+		E79DE35B21999E13006CFF04 /* esShapes.c in Sources */ = {isa = PBXBuildFile; fileRef = E79DE35521999E13006CFF04 /* esShapes.c */; };
+		E79DE35C21999E13006CFF04 /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DE35621999E13006CFF04 /* ImageUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E79DE35E21999E25006CFF04 /* Simple_TextureCubemap.c in Sources */ = {isa = PBXBuildFile; fileRef = E79DE35D21999E25006CFF04 /* Simple_TextureCubemap.c */; };
+		E79DE36121999EA8006CFF04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DE36021999EA8006CFF04 /* QuartzCore.framework */; };
+		E79DE36321999EB3006CFF04 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DE36221999EB2006CFF04 /* OpenGLES.framework */; };
+		E79DE36521999EB9006CFF04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DE36421999EB9006CFF04 /* UIKit.framework */; };
+		E79DE36721999EC0006CFF04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DE36621999EC0006CFF04 /* Foundation.framework */; };
+		E79DE36B2199B077006CFF04 /* SphereViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DE36A2199B077006CFF04 /* SphereViewcontroller.m */; };
+		E79DE36D2199B0E5006CFF04 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DE36C2199B0E5006CFF04 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		993DA239219A9A3D00963107 /* ColorTrackingGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingGLView.m; sourceTree = "<group>"; };
+		993DA23A219A9A3D00963107 /* pathSleepController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathSleepController.h; sourceTree = "<group>"; };
+		993DA23B219A9A3D00963107 /* pathSleepController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pathSleepController.xib; sourceTree = "<group>"; };
+		993DA23C219A9A3D00963107 /* ColorTrackingGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTrackingGLView.h; sourceTree = "<group>"; };
+		993DA23D219A9A3D00963107 /* pathSleepController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pathSleepController.m; sourceTree = "<group>"; };
+		993DA2BE219A9D2100963107 /* sleep-moon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon5.png"; sourceTree = "<group>"; };
+		993DA2BF219A9D2100963107 /* DirectDisplayShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectDisplayShader.fsh; sourceTree = "<group>"; };
+		993DA2C0219A9D2100963107 /* sleep-moon4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon4@2x.png"; sourceTree = "<group>"; };
+		993DA2C1219A9D2100963107 /* sleep-moon8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon8@2x.png"; sourceTree = "<group>"; };
+		993DA2C2219A9D2100963107 /* sleep-moon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon4.png"; sourceTree = "<group>"; };
+		993DA2C3219A9D2100963107 /* sleep-moon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon6.png"; sourceTree = "<group>"; };
+		993DA2C4219A9D2100963107 /* sleep-moon7.png.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "sleep-moon7.png.zip"; sourceTree = "<group>"; };
+		993DA2C5219A9D2100963107 /* sleep-moon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon7.png"; sourceTree = "<group>"; };
+		993DA2C6219A9D2100963107 /* sleep-moon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon3.png"; sourceTree = "<group>"; };
+		993DA2C7219A9D2100963107 /* sleep-moon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon2.png"; sourceTree = "<group>"; };
+		993DA2C8219A9D2100963107 /* starShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = starShader.fsh; sourceTree = "<group>"; };
+		993DA2C9219A9D2100963107 /* sleep-moon6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon6@2x.png"; sourceTree = "<group>"; };
+		993DA2CA219A9D2100963107 /* sleep-moon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon1.png"; sourceTree = "<group>"; };
+		993DA2CB219A9D2100963107 /* sleep-gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-gradient.png"; sourceTree = "<group>"; };
+		993DA2CC219A9D2100963107 /* sleep-moon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon2@2x.png"; sourceTree = "<group>"; };
+		993DA2CD219A9D2100963107 /* sleep-awake-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-awake-button@2x.png"; sourceTree = "<group>"; };
+		993DA2CE219A9D2100963107 /* moonShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = moonShader.vsh; sourceTree = "<group>"; };
+		993DA2CF219A9D2100963107 /* xueye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xueye.jpg; sourceTree = "<group>"; };
+		993DA2D0219A9D2100963107 /* sleep-stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-stars@2x.png"; sourceTree = "<group>"; };
+		993DA2D1219A9D2100963107 /* sleep-gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-gradient@2x.png"; sourceTree = "<group>"; };
+		993DA2D2219A9D2100963107 /* sleep-moon5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon5@2x.png"; sourceTree = "<group>"; };
+		993DA2D3219A9D2100963107 /* starShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = starShader.vsh; sourceTree = "<group>"; };
+		993DA2D4219A9D2100963107 /* DirectDisplayShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectDisplayShader.vsh; sourceTree = "<group>"; };
+		993DA2D5219A9D2100963107 /* sleep-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-stars.png"; sourceTree = "<group>"; };
+		993DA2D6219A9D2100963107 /* sleep-moon7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon7@2x.png"; sourceTree = "<group>"; };
+		993DA2D7219A9D2100963107 /* sleep-awake-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-awake-button.png"; sourceTree = "<group>"; };
+		993DA2D8219A9D2100963107 /* sleep-moon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon3@2x.png"; sourceTree = "<group>"; };
+		993DA2D9219A9D2100963107 /* moonShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = moonShader.fsh; sourceTree = "<group>"; };
+		993DA2DA219A9D2100963107 /* sleep-moon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon1@2x.png"; sourceTree = "<group>"; };
+		993DA2DB219A9D2100963107 /* sleep-moon8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon8.png"; sourceTree = "<group>"; };
+		99CE36C421A7ED9D0055151A /* SGDistortionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDistortionModel.m; sourceTree = "<group>"; };
+		99CE36C521A7ED9D0055151A /* SGDistortionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDistortionRenderer.h; sourceTree = "<group>"; };
+		99CE36C621A7ED9D0055151A /* SGDistortionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDistortionRenderer.m; sourceTree = "<group>"; };
+		99CE36C721A7ED9D0055151A /* SGDistortionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDistortionModel.h; sourceTree = "<group>"; };
+		99CE36CA21A7EE0A0055151A /* DZGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZGLView.h; sourceTree = "<group>"; };
+		99CE36CB21A7EE0A0055151A /* DZGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZGLView.m; sourceTree = "<group>"; };
+		99F74FA8219A635C00F3F565 /* PanoramaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanoramaViewController.h; sourceTree = "<group>"; };
+		99F74FA9219A635C00F3F565 /* PanoramaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
+		99F74FAB219A64F300F3F565 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		E79DE33621999DCB006CFF04 /* Sphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79DE33921999DCB006CFF04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E79DE33A21999DCB006CFF04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E79DE33C21999DCB006CFF04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E79DE33D21999DCB006CFF04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E79DE34021999DCC006CFF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79DE34221999DCC006CFF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79DE34521999DCD006CFF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79DE34721999DCD006CFF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79DE34821999DCD006CFF04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E79DE34F21999E12006CFF04 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		E79DE35021999E12006CFF04 /* esUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esUtil.h; sourceTree = "<group>"; };
+		E79DE35121999E13006CFF04 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		E79DE35221999E13006CFF04 /* esShader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShader.c; sourceTree = "<group>"; };
+		E79DE35321999E13006CFF04 /* esUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esUtil.c; sourceTree = "<group>"; };
+		E79DE35421999E13006CFF04 /* esTransform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esTransform.c; sourceTree = "<group>"; };
+		E79DE35521999E13006CFF04 /* esShapes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShapes.c; sourceTree = "<group>"; };
+		E79DE35621999E13006CFF04 /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		E79DE35D21999E25006CFF04 /* Simple_TextureCubemap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Simple_TextureCubemap.c; sourceTree = "<group>"; };
+		E79DE36021999EA8006CFF04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E79DE36221999EB2006CFF04 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E79DE36421999EB9006CFF04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E79DE36621999EC0006CFF04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E79DE3692199B077006CFF04 /* SphereViewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SphereViewcontroller.h; sourceTree = "<group>"; };
+		E79DE36A2199B077006CFF04 /* SphereViewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SphereViewcontroller.m; sourceTree = "<group>"; };
+		E79DE36C2199B0E5006CFF04 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79DE33321999DCB006CFF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79DE36D2199B0E5006CFF04 /* GLKit.framework in Frameworks */,
+				E79DE36721999EC0006CFF04 /* Foundation.framework in Frameworks */,
+				E79DE36521999EB9006CFF04 /* UIKit.framework in Frameworks */,
+				E79DE36321999EB3006CFF04 /* OpenGLES.framework in Frameworks */,
+				E79DE36121999EA8006CFF04 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993DA2BD219A9D2100963107 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				993DA2BE219A9D2100963107 /* sleep-moon5.png */,
+				993DA2BF219A9D2100963107 /* DirectDisplayShader.fsh */,
+				993DA2C0219A9D2100963107 /* sleep-moon4@2x.png */,
+				993DA2C1219A9D2100963107 /* sleep-moon8@2x.png */,
+				993DA2C2219A9D2100963107 /* sleep-moon4.png */,
+				993DA2C3219A9D2100963107 /* sleep-moon6.png */,
+				993DA2C4219A9D2100963107 /* sleep-moon7.png.zip */,
+				993DA2C5219A9D2100963107 /* sleep-moon7.png */,
+				993DA2C6219A9D2100963107 /* sleep-moon3.png */,
+				993DA2C7219A9D2100963107 /* sleep-moon2.png */,
+				993DA2C8219A9D2100963107 /* starShader.fsh */,
+				993DA2C9219A9D2100963107 /* sleep-moon6@2x.png */,
+				993DA2CA219A9D2100963107 /* sleep-moon1.png */,
+				993DA2CB219A9D2100963107 /* sleep-gradient.png */,
+				993DA2CC219A9D2100963107 /* sleep-moon2@2x.png */,
+				993DA2CD219A9D2100963107 /* sleep-awake-button@2x.png */,
+				993DA2CE219A9D2100963107 /* moonShader.vsh */,
+				993DA2CF219A9D2100963107 /* xueye.jpg */,
+				993DA2D0219A9D2100963107 /* sleep-stars@2x.png */,
+				993DA2D1219A9D2100963107 /* sleep-gradient@2x.png */,
+				993DA2D2219A9D2100963107 /* sleep-moon5@2x.png */,
+				993DA2D3219A9D2100963107 /* starShader.vsh */,
+				993DA2D4219A9D2100963107 /* DirectDisplayShader.vsh */,
+				993DA2D5219A9D2100963107 /* sleep-stars.png */,
+				993DA2D6219A9D2100963107 /* sleep-moon7@2x.png */,
+				993DA2D7219A9D2100963107 /* sleep-awake-button.png */,
+				993DA2D8219A9D2100963107 /* sleep-moon3@2x.png */,
+				993DA2D9219A9D2100963107 /* moonShader.fsh */,
+				993DA2DA219A9D2100963107 /* sleep-moon1@2x.png */,
+				993DA2DB219A9D2100963107 /* sleep-moon8.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E79DE32D21999DCA006CFF04 = {
+			isa = PBXGroup;
+			children = (
+				E79DE33821999DCB006CFF04 /* Sphere */,
+				E79DE33721999DCB006CFF04 /* Products */,
+				E79DE35F21999EA8006CFF04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E79DE33721999DCB006CFF04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79DE33621999DCB006CFF04 /* Sphere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79DE33821999DCB006CFF04 /* Sphere */ = {
+			isa = PBXGroup;
+			children = (
+				99CE36C721A7ED9D0055151A /* SGDistortionModel.h */,
+				99CE36C421A7ED9D0055151A /* SGDistortionModel.m */,
+				99CE36C521A7ED9D0055151A /* SGDistortionRenderer.h */,
+				99CE36C621A7ED9D0055151A /* SGDistortionRenderer.m */,
+				993DA2BD219A9D2100963107 /* Resources */,
+				993DA23C219A9A3D00963107 /* ColorTrackingGLView.h */,
+				993DA239219A9A3D00963107 /* ColorTrackingGLView.m */,
+				993DA23A219A9A3D00963107 /* pathSleepController.h */,
+				993DA23D219A9A3D00963107 /* pathSleepController.m */,
+				993DA23B219A9A3D00963107 /* pathSleepController.xib */,
+				99F74FAB219A64F300F3F565 /* timg.jpeg */,
+				E79DE35D21999E25006CFF04 /* Simple_TextureCubemap.c */,
+				E79DE35121999E13006CFF04 /* EAGLView.h */,
+				E79DE34F21999E12006CFF04 /* EAGLView.m */,
+				E79DE35221999E13006CFF04 /* esShader.c */,
+				E79DE35521999E13006CFF04 /* esShapes.c */,
+				E79DE35421999E13006CFF04 /* esTransform.c */,
+				E79DE35321999E13006CFF04 /* esUtil.c */,
+				E79DE35021999E12006CFF04 /* esUtil.h */,
+				E79DE35621999E13006CFF04 /* ImageUtils.m */,
+				E79DE33921999DCB006CFF04 /* AppDelegate.h */,
+				E79DE33A21999DCB006CFF04 /* AppDelegate.m */,
+				E79DE33C21999DCB006CFF04 /* ViewController.h */,
+				E79DE33D21999DCB006CFF04 /* ViewController.m */,
+				E79DE33F21999DCC006CFF04 /* Main.storyboard */,
+				E79DE34221999DCC006CFF04 /* Assets.xcassets */,
+				E79DE34421999DCD006CFF04 /* LaunchScreen.storyboard */,
+				E79DE34721999DCD006CFF04 /* Info.plist */,
+				E79DE34821999DCD006CFF04 /* main.m */,
+				E79DE3692199B077006CFF04 /* SphereViewcontroller.h */,
+				E79DE36A2199B077006CFF04 /* SphereViewcontroller.m */,
+				99F74FA8219A635C00F3F565 /* PanoramaViewController.h */,
+				99F74FA9219A635C00F3F565 /* PanoramaViewController.m */,
+				99CE36CA21A7EE0A0055151A /* DZGLView.h */,
+				99CE36CB21A7EE0A0055151A /* DZGLView.m */,
+			);
+			path = Sphere;
+			sourceTree = "<group>";
+		};
+		E79DE35F21999EA8006CFF04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79DE36C2199B0E5006CFF04 /* GLKit.framework */,
+				E79DE36621999EC0006CFF04 /* Foundation.framework */,
+				E79DE36421999EB9006CFF04 /* UIKit.framework */,
+				E79DE36221999EB2006CFF04 /* OpenGLES.framework */,
+				E79DE36021999EA8006CFF04 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79DE33521999DCB006CFF04 /* Sphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79DE34C21999DCD006CFF04 /* Build configuration list for PBXNativeTarget "Sphere" */;
+			buildPhases = (
+				E79DE33221999DCB006CFF04 /* Sources */,
+				E79DE33321999DCB006CFF04 /* Frameworks */,
+				E79DE33421999DCB006CFF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sphere;
+			productName = Sphere;
+			productReference = E79DE33621999DCB006CFF04 /* Sphere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79DE32E21999DCA006CFF04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = alan;
+				TargetAttributes = {
+					E79DE33521999DCB006CFF04 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E79DE33121999DCA006CFF04 /* Build configuration list for PBXProject "Sphere" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79DE32D21999DCA006CFF04;
+			productRefGroup = E79DE33721999DCB006CFF04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79DE33521999DCB006CFF04 /* Sphere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79DE33421999DCB006CFF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79DE34621999DCD006CFF04 /* LaunchScreen.storyboard in Resources */,
+				993DA2F6219A9D2200963107 /* sleep-moon3@2x.png in Resources */,
+				993DA2ED219A9D2200963107 /* xueye.jpg in Resources */,
+				993DA2F5219A9D2200963107 /* sleep-awake-button.png in Resources */,
+				993DA2F2219A9D2200963107 /* DirectDisplayShader.vsh in Resources */,
+				993DA2F4219A9D2200963107 /* sleep-moon7@2x.png in Resources */,
+				E79DE34321999DCC006CFF04 /* Assets.xcassets in Resources */,
+				993DA2F1219A9D2200963107 /* starShader.vsh in Resources */,
+				993DA2E8219A9D2200963107 /* sleep-moon1.png in Resources */,
+				993DA2DE219A9D2100963107 /* sleep-moon4@2x.png in Resources */,
+				993DA2EA219A9D2200963107 /* sleep-moon2@2x.png in Resources */,
+				993DA2E9219A9D2200963107 /* sleep-gradient.png in Resources */,
+				993DA2E3219A9D2100963107 /* sleep-moon7.png in Resources */,
+				993DA2DC219A9D2100963107 /* sleep-moon5.png in Resources */,
+				993DA2E1219A9D2100963107 /* sleep-moon6.png in Resources */,
+				993DA2EE219A9D2200963107 /* sleep-stars@2x.png in Resources */,
+				993DA2F3219A9D2200963107 /* sleep-stars.png in Resources */,
+				993DA2F8219A9D2200963107 /* sleep-moon1@2x.png in Resources */,
+				993DA2F9219A9D2200963107 /* sleep-moon8.png in Resources */,
+				99F74FAC219A64F300F3F565 /* timg.jpeg in Resources */,
+				993DA2DD219A9D2100963107 /* DirectDisplayShader.fsh in Resources */,
+				E79DE34121999DCC006CFF04 /* Main.storyboard in Resources */,
+				993DA2E0219A9D2100963107 /* sleep-moon4.png in Resources */,
+				993DA2E2219A9D2100963107 /* sleep-moon7.png.zip in Resources */,
+				993DA2DF219A9D2100963107 /* sleep-moon8@2x.png in Resources */,
+				993DA2F0219A9D2200963107 /* sleep-moon5@2x.png in Resources */,
+				993DA2E7219A9D2200963107 /* sleep-moon6@2x.png in Resources */,
+				993DA2E4219A9D2100963107 /* sleep-moon3.png in Resources */,
+				993DA2EC219A9D2200963107 /* moonShader.vsh in Resources */,
+				993DA2EB219A9D2200963107 /* sleep-awake-button@2x.png in Resources */,
+				993DA23F219A9A3D00963107 /* pathSleepController.xib in Resources */,
+				993DA2EF219A9D2200963107 /* sleep-gradient@2x.png in Resources */,
+				993DA2E6219A9D2200963107 /* starShader.fsh in Resources */,
+				993DA2E5219A9D2100963107 /* sleep-moon2.png in Resources */,
+				993DA2F7219A9D2200963107 /* moonShader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79DE33221999DCB006CFF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993DA240219A9A3D00963107 /* pathSleepController.m in Sources */,
+				99CE36C921A7ED9D0055151A /* SGDistortionRenderer.m in Sources */,
+				993DA23E219A9A3D00963107 /* ColorTrackingGLView.m in Sources */,
+				E79DE35821999E13006CFF04 /* esShader.c in Sources */,
+				E79DE33E21999DCB006CFF04 /* ViewController.m in Sources */,
+				99CE36CC21A7EE0A0055151A /* DZGLView.m in Sources */,
+				E79DE35721999E13006CFF04 /* EAGLView.m in Sources */,
+				99CE36C821A7ED9D0055151A /* SGDistortionModel.m in Sources */,
+				E79DE36B2199B077006CFF04 /* SphereViewcontroller.m in Sources */,
+				E79DE35A21999E13006CFF04 /* esTransform.c in Sources */,
+				E79DE34921999DCD006CFF04 /* main.m in Sources */,
+				E79DE33B21999DCB006CFF04 /* AppDelegate.m in Sources */,
+				E79DE35C21999E13006CFF04 /* ImageUtils.m in Sources */,
+				E79DE35E21999E25006CFF04 /* Simple_TextureCubemap.c in Sources */,
+				99F74FAA219A635C00F3F565 /* PanoramaViewController.m in Sources */,
+				E79DE35921999E13006CFF04 /* esUtil.c in Sources */,
+				E79DE35B21999E13006CFF04 /* esShapes.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E79DE33F21999DCC006CFF04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79DE34021999DCC006CFF04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79DE34421999DCD006CFF04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79DE34521999DCD006CFF04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79DE34A21999DCD006CFF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E79DE34B21999DCD006CFF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79DE34D21999DCD006CFF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QHCS2PLKR;
+				INFOPLIST_FILE = Sphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzeep.Sphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E79DE34E21999DCD006CFF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4QHCS2PLKR;
+				INFOPLIST_FILE = Sphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzeep.Sphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79DE33121999DCA006CFF04 /* Build configuration list for PBXProject "Sphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79DE34A21999DCD006CFF04 /* Debug */,
+				E79DE34B21999DCD006CFF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79DE34C21999DCD006CFF04 /* Build configuration list for PBXNativeTarget "Sphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79DE34D21999DCD006CFF04 /* Debug */,
+				E79DE34E21999DCD006CFF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79DE32E21999DCA006CFF04 /* Project object */;
+}
