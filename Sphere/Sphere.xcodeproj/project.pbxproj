@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		993DA23E219A9A3D00963107 /* ColorTrackingGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 993DA239219A9A3D00963107 /* ColorTrackingGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		993DA23F219A9A3D00963107 /* pathSleepController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993DA23B219A9A3D00963107 /* pathSleepController.xib */; };
-		993DA240219A9A3D00963107 /* pathSleepController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993DA23D219A9A3D00963107 /* pathSleepController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		992920DE21ABBECF00E4BD56 /* ColorTrackingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 992920D021ABBECF00E4BD56 /* ColorTrackingAppDelegate.m */; };
+		992920DF21ABBECF00E4BD56 /* ColorTrackingCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 992920D221ABBECF00E4BD56 /* ColorTrackingCamera.m */; };
+		992920E021ABBECF00E4BD56 /* ColorTrackingGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 992920D421ABBECF00E4BD56 /* ColorTrackingGLView.m */; };
+		992920E121ABBECF00E4BD56 /* ColorTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992920D621ABBECF00E4BD56 /* ColorTrackingViewController.m */; };
+		992920E221ABBECF00E4BD56 /* DirectDisplayShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 992920D821ABBECF00E4BD56 /* DirectDisplayShader.fsh */; };
+		992920E321ABBECF00E4BD56 /* DirectDisplayShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 992920D921ABBECF00E4BD56 /* DirectDisplayShader.vsh */; };
+		992920E421ABBECF00E4BD56 /* PositionShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 992920DA21ABBECF00E4BD56 /* PositionShader.fsh */; };
+		992920E521ABBECF00E4BD56 /* PositionShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 992920DB21ABBECF00E4BD56 /* PositionShader.vsh */; };
+		992920E621ABBECF00E4BD56 /* ThresholdShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 992920DC21ABBECF00E4BD56 /* ThresholdShader.fsh */; };
+		992920E721ABBECF00E4BD56 /* ThresholdShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 992920DD21ABBECF00E4BD56 /* ThresholdShader.vsh */; };
 		993DA2DC219A9D2100963107 /* sleep-moon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2BE219A9D2100963107 /* sleep-moon5.png */; };
 		993DA2DD219A9D2100963107 /* DirectDisplayShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2BF219A9D2100963107 /* DirectDisplayShader.fsh */; };
 		993DA2DE219A9D2100963107 /* sleep-moon4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993DA2C0219A9D2100963107 /* sleep-moon4@2x.png */; };
@@ -67,11 +74,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		993DA239219A9A3D00963107 /* ColorTrackingGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingGLView.m; sourceTree = "<group>"; };
-		993DA23A219A9A3D00963107 /* pathSleepController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathSleepController.h; sourceTree = "<group>"; };
-		993DA23B219A9A3D00963107 /* pathSleepController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pathSleepController.xib; sourceTree = "<group>"; };
-		993DA23C219A9A3D00963107 /* ColorTrackingGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTrackingGLView.h; sourceTree = "<group>"; };
-		993DA23D219A9A3D00963107 /* pathSleepController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pathSleepController.m; sourceTree = "<group>"; };
+		992920CF21ABBECF00E4BD56 /* ColorTrackingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTrackingAppDelegate.h; sourceTree = "<group>"; };
+		992920D021ABBECF00E4BD56 /* ColorTrackingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingAppDelegate.m; sourceTree = "<group>"; };
+		992920D121ABBECF00E4BD56 /* ColorTrackingCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTrackingCamera.h; sourceTree = "<group>"; };
+		992920D221ABBECF00E4BD56 /* ColorTrackingCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingCamera.m; sourceTree = "<group>"; };
+		992920D321ABBECF00E4BD56 /* ColorTrackingGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTrackingGLView.h; sourceTree = "<group>"; };
+		992920D421ABBECF00E4BD56 /* ColorTrackingGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingGLView.m; sourceTree = "<group>"; };
+		992920D521ABBECF00E4BD56 /* ColorTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTrackingViewController.h; sourceTree = "<group>"; };
+		992920D621ABBECF00E4BD56 /* ColorTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTrackingViewController.m; sourceTree = "<group>"; };
+		992920D821ABBECF00E4BD56 /* DirectDisplayShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectDisplayShader.fsh; sourceTree = "<group>"; };
+		992920D921ABBECF00E4BD56 /* DirectDisplayShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectDisplayShader.vsh; sourceTree = "<group>"; };
+		992920DA21ABBECF00E4BD56 /* PositionShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PositionShader.fsh; sourceTree = "<group>"; };
+		992920DB21ABBECF00E4BD56 /* PositionShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PositionShader.vsh; sourceTree = "<group>"; };
+		992920DC21ABBECF00E4BD56 /* ThresholdShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ThresholdShader.fsh; sourceTree = "<group>"; };
+		992920DD21ABBECF00E4BD56 /* ThresholdShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ThresholdShader.vsh; sourceTree = "<group>"; };
 		993DA2BE219A9D2100963107 /* sleep-moon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon5.png"; sourceTree = "<group>"; };
 		993DA2BF219A9D2100963107 /* DirectDisplayShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectDisplayShader.fsh; sourceTree = "<group>"; };
 		993DA2C0219A9D2100963107 /* sleep-moon4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sleep-moon4@2x.png"; sourceTree = "<group>"; };
@@ -155,6 +171,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		992920CE21ABBECF00E4BD56 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				992920CF21ABBECF00E4BD56 /* ColorTrackingAppDelegate.h */,
+				992920D021ABBECF00E4BD56 /* ColorTrackingAppDelegate.m */,
+				992920D121ABBECF00E4BD56 /* ColorTrackingCamera.h */,
+				992920D221ABBECF00E4BD56 /* ColorTrackingCamera.m */,
+				992920D321ABBECF00E4BD56 /* ColorTrackingGLView.h */,
+				992920D421ABBECF00E4BD56 /* ColorTrackingGLView.m */,
+				992920D521ABBECF00E4BD56 /* ColorTrackingViewController.h */,
+				992920D621ABBECF00E4BD56 /* ColorTrackingViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		992920D721ABBECF00E4BD56 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				992920D821ABBECF00E4BD56 /* DirectDisplayShader.fsh */,
+				992920D921ABBECF00E4BD56 /* DirectDisplayShader.vsh */,
+				992920DA21ABBECF00E4BD56 /* PositionShader.fsh */,
+				992920DB21ABBECF00E4BD56 /* PositionShader.vsh */,
+				992920DC21ABBECF00E4BD56 /* ThresholdShader.fsh */,
+				992920DD21ABBECF00E4BD56 /* ThresholdShader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		993DA2BD219A9D2100963107 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,16 +256,13 @@
 		E79DE33821999DCB006CFF04 /* Sphere */ = {
 			isa = PBXGroup;
 			children = (
+				992920CE21ABBECF00E4BD56 /* Classes */,
+				992920D721ABBECF00E4BD56 /* Shaders */,
 				99CE36C721A7ED9D0055151A /* SGDistortionModel.h */,
 				99CE36C421A7ED9D0055151A /* SGDistortionModel.m */,
 				99CE36C521A7ED9D0055151A /* SGDistortionRenderer.h */,
 				99CE36C621A7ED9D0055151A /* SGDistortionRenderer.m */,
 				993DA2BD219A9D2100963107 /* Resources */,
-				993DA23C219A9A3D00963107 /* ColorTrackingGLView.h */,
-				993DA239219A9A3D00963107 /* ColorTrackingGLView.m */,
-				993DA23A219A9A3D00963107 /* pathSleepController.h */,
-				993DA23D219A9A3D00963107 /* pathSleepController.m */,
-				993DA23B219A9A3D00963107 /* pathSleepController.xib */,
 				99F74FAB219A64F300F3F565 /* timg.jpeg */,
 				E79DE35D21999E25006CFF04 /* Simple_TextureCubemap.c */,
 				E79DE35121999E13006CFF04 /* EAGLView.h */,
@@ -322,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79DE34621999DCD006CFF04 /* LaunchScreen.storyboard in Resources */,
+				992920E421ABBECF00E4BD56 /* PositionShader.fsh in Resources */,
 				993DA2F6219A9D2200963107 /* sleep-moon3@2x.png in Resources */,
 				993DA2ED219A9D2200963107 /* xueye.jpg in Resources */,
 				993DA2F5219A9D2200963107 /* sleep-awake-button.png in Resources */,
@@ -334,9 +376,11 @@
 				993DA2EA219A9D2200963107 /* sleep-moon2@2x.png in Resources */,
 				993DA2E9219A9D2200963107 /* sleep-gradient.png in Resources */,
 				993DA2E3219A9D2100963107 /* sleep-moon7.png in Resources */,
+				992920E621ABBECF00E4BD56 /* ThresholdShader.fsh in Resources */,
 				993DA2DC219A9D2100963107 /* sleep-moon5.png in Resources */,
 				993DA2E1219A9D2100963107 /* sleep-moon6.png in Resources */,
 				993DA2EE219A9D2200963107 /* sleep-stars@2x.png in Resources */,
+				992920E521ABBECF00E4BD56 /* PositionShader.vsh in Resources */,
 				993DA2F3219A9D2200963107 /* sleep-stars.png in Resources */,
 				993DA2F8219A9D2200963107 /* sleep-moon1@2x.png in Resources */,
 				993DA2F9219A9D2200963107 /* sleep-moon8.png in Resources */,
@@ -345,14 +389,16 @@
 				E79DE34121999DCC006CFF04 /* Main.storyboard in Resources */,
 				993DA2E0219A9D2100963107 /* sleep-moon4.png in Resources */,
 				993DA2E2219A9D2100963107 /* sleep-moon7.png.zip in Resources */,
+				992920E321ABBECF00E4BD56 /* DirectDisplayShader.vsh in Resources */,
 				993DA2DF219A9D2100963107 /* sleep-moon8@2x.png in Resources */,
 				993DA2F0219A9D2200963107 /* sleep-moon5@2x.png in Resources */,
 				993DA2E7219A9D2200963107 /* sleep-moon6@2x.png in Resources */,
 				993DA2E4219A9D2100963107 /* sleep-moon3.png in Resources */,
 				993DA2EC219A9D2200963107 /* moonShader.vsh in Resources */,
 				993DA2EB219A9D2200963107 /* sleep-awake-button@2x.png in Resources */,
-				993DA23F219A9A3D00963107 /* pathSleepController.xib in Resources */,
+				992920E221ABBECF00E4BD56 /* DirectDisplayShader.fsh in Resources */,
 				993DA2EF219A9D2200963107 /* sleep-gradient@2x.png in Resources */,
+				992920E721ABBECF00E4BD56 /* ThresholdShader.vsh in Resources */,
 				993DA2E6219A9D2200963107 /* starShader.fsh in Resources */,
 				993DA2E5219A9D2100963107 /* sleep-moon2.png in Resources */,
 				993DA2F7219A9D2200963107 /* moonShader.fsh in Resources */,
@@ -366,20 +412,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993DA240219A9A3D00963107 /* pathSleepController.m in Sources */,
 				99CE36C921A7ED9D0055151A /* SGDistortionRenderer.m in Sources */,
-				993DA23E219A9A3D00963107 /* ColorTrackingGLView.m in Sources */,
 				E79DE35821999E13006CFF04 /* esShader.c in Sources */,
+				992920E121ABBECF00E4BD56 /* ColorTrackingViewController.m in Sources */,
 				E79DE33E21999DCB006CFF04 /* ViewController.m in Sources */,
 				99CE36CC21A7EE0A0055151A /* DZGLView.m in Sources */,
 				E79DE35721999E13006CFF04 /* EAGLView.m in Sources */,
+				992920DF21ABBECF00E4BD56 /* ColorTrackingCamera.m in Sources */,
 				99CE36C821A7ED9D0055151A /* SGDistortionModel.m in Sources */,
 				E79DE36B2199B077006CFF04 /* SphereViewcontroller.m in Sources */,
 				E79DE35A21999E13006CFF04 /* esTransform.c in Sources */,
 				E79DE34921999DCD006CFF04 /* main.m in Sources */,
 				E79DE33B21999DCB006CFF04 /* AppDelegate.m in Sources */,
 				E79DE35C21999E13006CFF04 /* ImageUtils.m in Sources */,
+				992920DE21ABBECF00E4BD56 /* ColorTrackingAppDelegate.m in Sources */,
 				E79DE35E21999E25006CFF04 /* Simple_TextureCubemap.c in Sources */,
+				992920E021ABBECF00E4BD56 /* ColorTrackingGLView.m in Sources */,
 				99F74FAA219A635C00F3F565 /* PanoramaViewController.m in Sources */,
 				E79DE35921999E13006CFF04 /* esUtil.c in Sources */,
 				E79DE35B21999E13006CFF04 /* esShapes.c in Sources */,

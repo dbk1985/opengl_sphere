@@ -11,6 +11,7 @@
 #import "SphereViewcontroller.h"
 #import "PanoramaViewController.h"
 #import "pathSleepController.h"
+#import "ColorTrackingViewController.h"
 
 @interface ViewController ()
 
@@ -36,6 +37,7 @@
     [self.navigationController pushViewController:[SphereViewcontroller new] animated:YES];
 }
 - (IBAction)boxTest:(UIBarButtonItem *)sender {
+    [self.navigationController pushViewController:[[ColorTrackingViewController alloc] initWithScreen:[UIScreen mainScreen]] animated:YES];
 }
 
 @end
